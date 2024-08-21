@@ -1,0 +1,485 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- website title -->
+  <title>MugAlchemy</title>
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- favicon -->
+   <link rel="icon" href="https://th.bing.com/th/id/R.f65ce99dffcf7a98431fdd58de15bd0c?rik=a042bEFdctKjvQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fpng-coffee-shop-cafe-coffee-shop-restaurant-shop-store-icon-512.png&ehk=Y2HNMyCgjb5U6i3suH2wqoR%2bHEabDkOgwZrYPws3Ilc%3d&risl=&pid=ImgRaw&r=0">
+
+  <!-- google fonts -->
+   <!-- 1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Grey+Qo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- 2 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Grey+Qo&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- header  -->
+   <header>
+    <ul>
+      <li>MugAlchemy<i class="fa-solid fa-mug-saucer"></i></li>
+      <li>Home</li>
+      <li>Gallery</li>
+      <li>Menu</li>
+      <li>About Us</li>
+    </ul>
+   </header>
+
+   <!-- Home -->
+    <div class="home"><img src="https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-coffee-beans-leaves-beans-background-image_2177928.jpg" alt="" width="100%" height="800px"><p>MugAlchemy</p></div>
+
+
+    <!-- coffee  -->
+     <h1 id="coffee_h1">Home</h1>
+     <div class="coffee">
+      <div class="coffee_box">
+        <div class="coffee_box_1">Coffee holds a unique place in our daily lives, serving as both a comforting ritual and a source of energy. For many, the day begins with a steaming cup of coffee, marking the transition from rest to productivity. The aroma alone can awaken the senses, while the caffeine provides a much-needed boost to kickstart the morning. This routine has become a cherished part of daily life, offering a moment of calm before the day’s demands take over.Beyond its role as a morning staple, coffee plays a significant role in social interactions. </div>
+      </div>
+      <div class="coffee_box">
+        <div class="coffee_box_1"> The shared experience of enjoying a cup of coffee often fosters a sense of community and belonging.
+          Moreover, coffee has a profound cultural impact, reflecting the rich traditions of different regions around the world. From the intricate ceremonies of Ethiopian coffee culture to the espresso bars of Italy, coffee embodies diverse practices and customs. These traditions highlight the beverage's versatility and universal appeal, making it not just a drink, but a symbol of hospitality, warmth, and shared human experience across the globe.</div>
+      </div>
+     </div>
+
+  <!-- Gallery-->
+  <h1 id="gallery_h1">Gallery</h1>
+  <div class="main_gallery">
+
+   <div class="center_gallery">
+    <img src="./shop pic 1.webp" height="250px" alt="">
+    <img src="./shop pic 1.webp" height="250px" alt="">
+    <img src="./shop pic 1.webp" height="250px" alt="">
+    <img src="./shop pic 1.webp" height="250px" alt="">
+    <img src="./shop pic 1.webp" height="250px" alt="">
+    <img src="./shop pic 1.webp" height="250px" alt="">   
+  </div>
+
+  <div class="side_gallery"><h1 style="text-align: center;">Why Us ? <br><br>
+    <ul>
+      <li>Exceptional Coffee: We source the finest beans from sustainable farms, roasting them in-house to ensure every cup is fresh, flavorful, and made just the way you like it.</li><br>
+      <li>Warm Atmosphere: Our cozy and inviting space is perfect for relaxing, working, or catching up with friends. Whether you prefer a quiet corner or a sunny seat by the window, you'll find your perfect spot</li><br>
+      <li>Passionate Baristas: Our skilled baristas don’t just make coffee,they craft it. They're always happy to recommend new flavors or create a drink tailored to your taste.</li>
+    </ul>
+  </h1>
+</div>
+
+</div>
+
+
+  <!-- Menu and Review section -->
+  <div class="menu_review">
+
+    <!-- menu  -->
+  <div class="menu">
+
+    <div id="menu_title"> <h1>M E N U</h1></div>
+
+    <div class="menu_photos"> <img id="coffee_images" src="./coffee image 1.jpg" alt=""></div>
+    <div class="menu_photos"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur blanditiis magni modi impedit. Dolorum nam nulla fugit odio sint accusantium? Odit, nisi error exercitationem a molestias veritatis aperiam architecto? Odio!
+    Libero at nisi, adipisci aliquam cupiditate, hic numquam sapiente error ut debitis soluta iure. Laboriosam, eius minus quia laborum voluptatum eligendi, culpa eaque, nesciunt sunt dolore ad placeat minima ab.
+    Atque ad natus, voluptates non rerum sint vel eos at possimus laborum et tempora, eaque suscipit illo esse molestias deleniti fuga iste eveniet numquam ipsam iure nobis. Dolores, veritatis ipsa!</p></div>
+    <div class="menu_photos"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur blanditiis magni modi impedit. Dolorum nam nulla fugit odio sint accusantium? Odit, nisi error exercitationem a molestias veritatis aperiam architecto? Odio!
+      Libero at nisi, adipisci aliquam cupiditate, hic numquam sapiente error ut debitis soluta iure. Laboriosam, eius minus quia laborum voluptatum eligendi, culpa eaque, nesciunt sunt dolore ad placeat minima ab.
+      Atque ad natus, voluptates non rerum sint vel eos at possimus laborum et tempora, eaque suscipit illo esse molestias deleniti fuga iste eveniet numquam ipsam iure nobis. Dolores, veritatis ipsa!</p></div>
+    <div class="menu_photos"> <img id="coffee_images" src="./coffee image 1.jpg" alt=""></div>
+    <div class="menu_photos"> <img id="coffee_images" src="./coffee image 1.jpg" alt=""></div>
+    <div class="menu_photos"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur blanditiis magni modi impedit. Dolorum nam nulla fugit odio sint accusantium? Odit, nisi error exercitationem a molestias veritatis aperiam architecto? Odio!
+    Libero at nisi, adipisci aliquam cupiditate, hic numquam sapiente error ut debitis soluta iure. Laboriosam, eius minus quia laborum voluptatum eligendi, culpa eaque, nesciunt sunt dolore ad placeat minima ab.
+    Atque ad natus, voluptates non rerum sint vel eos at possimus laborum et tempora, eaque suscipit illo esse molestias deleniti fuga iste eveniet numquam ipsam iure nobis. Dolores, veritatis ipsa!</p></div>
+  
+    </div>
+
+
+    <!-- review  -->
+    <div class="review_box"><h1 id="review_title">Review</h1><br>
+      
+      <div class="comment_box_boundary">
+        <div class="comment_box_contents_right"><img src="https://gracedgirl.com/wp-content/uploads/2022/08/how-to-be-a-personable-person-scaled.jpeg" height="200px" width="200px" alt=""><p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia. Distinctio possimus at perspiciatis inventore in, natus nihil laudantium perferendis option"</p></div>
+      </div>
+
+      <div class="comment_box_boundary">
+        <div class="comment_box_contents_left"><img src="https://gracedgirl.com/wp-content/uploads/2022/08/how-to-be-a-personable-person-scaled.jpeg" height="200px" width="200px" alt=""><p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia. Distinctio possimus at perspiciatis inventore in, natus nihil laudantium perferendis option"</p></div>
+      </div>
+
+      <div class="comment_box_boundary">
+        <div class="comment_box_contents_right"><img src="https://gracedgirl.com/wp-content/uploads/2022/08/how-to-be-a-personable-person-scaled.jpeg" height="200px" width="200px" alt=""><p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quia. Distinctio possimus at perspiciatis inventore in, natus nihil laudantium perferendis option"</p></div>
+      </div>
+
+      </div>
+
+  </div>
+
+   
+<!-- about us -->
+ <div class="about_us">
+  <div class="feedback"><h1>About US</h1><br><p> <b>The Vision Our founder, George Bush</b>
+     had always been captivated by the art and culture of coffee. After years of traveling and experiencing the vibrant coffee scenes in cities around the world, he returned home with a dream to bring the same level of passion and quality to Thrissur. In 2008, this dream became a reality with the opening of MugAlchemy.</p><br><p>Starting as a modest café with a small but dedicated team, our coffee shop quickly became known for its commitment to quality. We sourced beans from the finest growers around the globe, meticulously roasted to bring out the unique flavors of each region. From day one, our goal was simple: to serve the best coffee in town while fostering a welcoming environment where everyone felt at home.
+    </p><br><p>
+Growth and Evolution
+As the years passed, our coffee shop grew from a hidden gem into a beloved local institution. We expanded our menu to include a wide range of beverages, from classic espressos to creative seasonal specials, alongside a selection of freshly baked pastries and artisanal snacks. Our space evolved too, with cozy nooks for quiet moments, communal tables for lively conversations, and even a small stage for local artists to showcase their talents.
+
+</p></div>
+  <div class="feedback">
+    <h1>Feedback</h1><table>
+    <form action="">
+      <tr>
+        <td><label for="">Your Name:</label></td>
+        <td><input type="text" name="" id=""></td>
+      </tr>
+      <tr>
+        <td><label for="">Email:</label></td>
+        <td><input type="email" name="" id=""></td>
+      </tr>
+      <tr>
+        <td><label for="">Feedback:</label></td>
+        <!-- <td><textarea  name="" id=""></textarea></td> -->
+        <td>
+          <textarea name="" id="" style="padding: 0px 55% 0px 0px;"></textarea>
+      </td>
+      
+      
+      </tr>
+      <tr>
+        <td><button>Submit</button></td>
+      </tr>
+
+    </form>
+  </table>
+  <h1 style="margin-top: 40px;">Your Feedback Is Important To Us</h1>
+</div>
+ </div>
+
+ <!-- footer -->
+  <footer>
+    <ul>
+      <li>MugAlchemy<i class="fa-solid fa-mug-saucer"></i></li>
+      <li>Established @2008 <br><br> Enjoy your coffe people with MugAlchemy as each day is a blessing</li>
+      <li>Follows us on <br><br>
+        <a href="">Facebook</a><br>
+        <a href="">Instagram</a>
+      </li>
+    </ul>
+
+  </footer>
+
+</body>
+</html>
+
+
+
+css
+
+
+/* body  */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* header */
+header{
+  height: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-top: 0.5%;
+  font-size: x-large;
+}
+
+
+/* home */
+.home{
+  height: 800px;
+  width: 100%;
+}
+.home img{
+  position: absolute;
+}
+.home p{
+  position: relative;
+  color: aliceblue;
+  padding-top: 9%;
+  margin-left: 33%;
+  font-size: 20ch;
+  font-family: "Grey Qo", cursive;
+}
+
+
+/* coffee */
+.coffee{
+  height: 700px;
+  display: flex;
+  background-color: black;
+}
+
+.coffee_box{
+  height: 600px;
+  width: 50%;
+  /* border: 1px solid white; */
+  margin-top: 3%;
+}
+.coffee_box_1{
+  height: 60%;
+  border: 10px double white;
+  border-radius: 5%;
+  width: 90%;
+  margin-left: 20px;
+  color: white;
+  /* padding: 10px; */
+  font-size: xx-large;
+  font-style: oblique;
+  justify-content: left
+}
+
+#coffee_h1{
+  text-align: center;
+  font-family: "Grey Qo", cursive;
+  font-size: 9ch;
+  color: white;
+  background-color: black;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* gallery and history */
+.main_gallery{
+  height: 700px;
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+.side_gallery{
+  height: 700px;
+  width: 50%;
+  /* padding-left: 10px; */
+  /* font-size: large; */
+  font-family: "Gupter", serif;
+  font-style: italic;
+}
+.side_gallery ul{
+  list-style: none;
+}
+
+.center_gallery{
+  height: 700px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  /* border: 1px solid white; */
+}
+#gallery_h1{
+  text-align: center;
+  font-family: "Grey Qo", cursive;
+  font-size: 9ch;
+  background-color: black;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+.center_gallery img{
+  border-radius:35%;
+  transition: 0.5s;
+  margin-top: 8%;
+  margin: 1%;
+}
+.center_gallery img:hover{
+  border-radius: 0%;
+  transform: scale(1.2);
+}
+
+
+/* menu and review section  */
+.menu_review{
+  height:1200px;
+  display: flex;
+}
+
+/* menu  */
+.menu{
+  height: 1200px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: aliceblue;
+}
+#menu_title{
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Grey Qo", cursive;
+  font-size: x-large;
+}
+.menu_photos{
+  width: 300px;
+  margin: auto;
+}
+#coffee_images{
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+} 
+
+
+/* review  */
+.review_box{
+  height:1200px;
+  width: 60%;
+  border: solid black 1px;
+  background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTcxMzA4Ni13aWtpbWVkaWEtaW1hZ2Utam9iNTcyLTEuanBn.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: aliceblue;
+  text-align: center;
+}
+
+#review_title{
+  font-family: "Grey Qo", cursive;
+  font-size: 7ch;
+  height: 60px;
+}
+
+.comment_box_boundary{
+   height: 300px;
+   width: 100%;
+   margin-bottom: 5%;
+   margin-top: 6%;
+   border-radius: 9%;
+   display: flex;
+   font-family: "Gupter", serif;
+
+  }
+
+.comment_box_boundary img{
+  border-radius: 10%;
+}
+
+.comment_box_boundary p{
+  margin-left: 30px;
+  margin-top: 20px;
+  word-spacing: 10px;
+}
+
+.comment_box_contents_right{
+  height: 300px;
+  width: 700px;
+  text-align: left;
+  font-size: x-large;
+  font-weight: 600;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: row;
+  font-style: oblique;
+}
+
+.comment_box_contents_left{
+  height: 300px;
+  width: 700px;
+  text-align: left;
+  font-size: x-large;
+  font-weight: 600;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  font-style: oblique;
+}
+
+.about_us{
+  height: 900px;
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 2%;
+  /* border: 1px solid white; */
+}
+
+.feedback{
+  height: 880px;
+  width: 50%;
+}
+
+.feedback h1{
+  text-align: center;
+  font-family: "Grey Qo", cursive;
+  font-size: 9ch;
+  padding-top: 20px;
+}
+.feedback p{
+  font-size: xx-large;
+  font-style: italic;
+  gap: 10px;
+}
+.feedback table{
+  margin: auto;
+  margin-top: 15%;
+  background-color: #522f1e;
+  color: white;
+  border-radius: 5%;
+  font-size: xx-large;
+}
+.feedback table td{
+  padding: 20px;
+}
+.feedback table input{
+  font-size: xx-large;
+}
+.feedback table button{
+  margin-left: 160%;
+  font-size: x-large;
+  padding:5px;
+  border-radius: 15%;
+  background-color:black ;
+  color: white;
+}
+
+
+/* footer  */
+footer{
+  height: 300px;
+  background-color: #522f1e;
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: xx-large;
+  font-style: italic;
+  color: aliceblue;
+  padding-top: 90px;
+}
+footer ul a{
+  text-decoration: none;
+  color: aliceblue;
+}
